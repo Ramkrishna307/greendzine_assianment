@@ -1,0 +1,29 @@
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    margin-bottom: 17px;
+  }
+  
+  .img-container {
+    position: relative;
+  }
+  
+  .counter {
+    width: 25px;
+    height: 25px;
+    background: rgba(94, 94, 94, 0.71); 
+    backdrop-filter: blur(5px); 
+    border: 1px solid #FFFEFE00;
+    border-radius: 50%;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    right: -25px;
+    color: green;
+  }

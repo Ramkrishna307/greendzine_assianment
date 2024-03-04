@@ -1,0 +1,34 @@
+.heading-container {
+    width: fit-content;
+    min-width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content:  space-between;
+    
+    border-radius: 1.6rem;
+    padding: 0.5rem 3.2rem;
+    background: #1F191966;
+    box-shadow: inset 0px 3px 3px #FFFDFD40, 3px 3px 3px #4A494947;
+    background-color:#131715 !important;
+    margin-bottom: 30px;
+  }
+
+  .heading-container p{
+    text-align: center;
+    font: normal normal bold 18px/25px Source Sans Pro;
+    letter-spacing: 0.01px;
+    color: #FFFFFFB3;
+    opacity: 0.84;
+    background-color: #131C19;
+  }
+  @media only screen and (max-width: 420px) {
+    .heading-container {
+       min-width: 300px;
+       margin-left: 4px;
+       margin-right: 4px;
+       font-weight: normal;
+       font: normal 18px/25px Source Sans Pro;
+       letter-spacing: 0.01px;
+       
+    }
+  }

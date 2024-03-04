@@ -1,0 +1,50 @@
+
+  .Input-cont {
+    width: fit-content;
+    min-width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content:  space-between;
+    margin-bottom: 10px;
+    border-radius: 1.6rem;
+    padding: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 0.9em;
+    background: #1F191966;
+    box-shadow: inset 0px 3px 3px #FFFDFD40, 3px 3px 3px #4A494947;
+  }
+  
+  .input {
+    border: none;
+    background: transparent;
+    color: white;
+  }
+
+  input:focus {
+   outline: none;
+  }
+  
+  .btn {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: transparent;
+    color: white;
+  }
+  
+
+  @media only screen and (max-width: 420px) {
+    .Input-cont {
+        min-width: 320px;
+        max-width: 320px;
+    }
+  }
+
+  @media only screen and (max-width: 390px) {
+    .Input-cont {
+        min-width: 300px;
+        max-width: 300px;
+    }
+  }
